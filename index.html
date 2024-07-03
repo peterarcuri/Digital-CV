@@ -25,7 +25,7 @@
         </div>
 
         <div>
-          <p style="color: #31363F; font-size: 2.3rem; font-family: Optima;"><u>Let's connect!! Find me on: </u></p>
+          <p style="color: #31363F; font-size: 2.3rem; font-family: Optima;">Let's connect!! Find me on: </p>
           <a href="https://www.linkedin.com/feed/"><img width="7%" src="images/Linkedin Logo.png" alt="Linkedin logo"></a>
           <a href="https://github.com/peterarcuri"><img width="7%" src="images/Github logo.png" alt="Github logo"></a>
         </div>
@@ -144,6 +144,67 @@
       </section>
 
       <hr>
+    
+    <!-- Contact Form Section -->
+    <h2 style="color: #31363F; font-size: 1.5rem;">Contact:</h2>
+
+    <form style="color: #31363F; font-size: 1.2rem;">
+
+      <label for="name">Name:
+        <input type="text" name="name" placeholder="Enter your name" required><br>
+      </label>
+  
+      <label for="email">Email: 
+        <input type="email" name="email" id="email" placeholder="Enter your email"><br>
+      </label>
+  
+      <label for="phone">Phone:
+        <input type="tel" name="phone" id="phone" placeholder="Enter your phone"><br>
+      </label>
+  
+      <label for="organization`">Organization:
+        <input type="text" name="name" placeholder="Facebook"><br>
+      </label>
+  
+      <label for="role">Role:
+        <input type="text" name="name" placeholder="Web Developer"><br>
+      </label>
+
+      <label for="reason for contact">Reason for Contact:
+        <select name="reason for contact">
+          <option value="">--Reason for Contact--</option>
+          <option value="job offers">Job Offers</option>
+          <option value="collaborations">Collaborations</option>
+          <option value="feedback">Feedback</option>
+        </select>
+      </label><br><br>
+
+      <label for="method of contact">--Preferred method of contact--</label><br>
+
+      <label>
+        <input type="radio" name="method of contact" value="phone"> 📱 Phone 
+      </label>
+
+       <br>
+      <label>
+        <input type="radio" name="method of contact" value="email"> 📧 Email
+      <br>
+      </label>
+      
+      <label>
+        <input type="radio" name="method of contact" value="text"> 📘 Text
+      <br>
+      </label><br>
+      
+
+      <label for="message">Message:
+        <textarea text-align="left" name="message" id="message" cols="50" rows="6" minlength="3" maxlength="250">Please enter your message here</textarea><br>
+      </label><br>
+      <button type="submit">Submit</button>
+
+    </form>
+
+    <hr>
 
     </main>
 
